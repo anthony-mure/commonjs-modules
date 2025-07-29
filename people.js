@@ -7,3 +7,16 @@ const fullName = require('./names');
 
 const hobbies = require('./hobbies');
 
+
+const getInfoPerson = () => {
+
+  return{
+
+     person : fullName('anthony','murè'),
+
+     hobby : hobbies('skateboard','disegnare','canoa')
+
+  }
+};
+
+console.log(getInfoPerson());
