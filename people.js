@@ -5,3 +5,5 @@ Crea una funzione che non ha parametri. La funzione dovrebbe restituire un ogget
 
 const fullName = require('./names');
 
+const hobbies = require('./hobbies');
+
